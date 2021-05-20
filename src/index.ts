@@ -1,13 +1,13 @@
-class Bar {
-  name: string;
-  constructor({ name }: { name: string }) {
-    this.name = name;
+export class Adder {
+  value: number;
+  constructor({ value }: { value: number }) {
+    this.value = value;
   }
 
-  public foo() {
-    console.log(`${this.name} foo!`);
+  public add(n: number) {
+    this.value += n;
+  }
+  public get() {
+    return this.value;
   }
 }
-
-const animal = new Bar({ name: "drv-tmpl" });
-animal.foo();

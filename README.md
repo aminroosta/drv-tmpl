@@ -1,16 +1,12 @@
 # drv-tmpl
 
-Node.js: https://www.npmjs.com/package/ts-node
-https://github.com/microsoft/TypeScript-Node-Starter/blob/master/tsconfig.json
-
-Dependency Management: https://www.npmjs.com
+- Setup: `npm install`
+- Production: `npm run start`
+- Development: `npm run start:dev`
+- All Tests: `npm run test`
+- Specific Test: `npm run test -t testNameOrPattern`
 
 Standardize logging: https://github.com/pinojs/pino
-
-Unit Test framework: https://jestjs.io/
-https://github.com/microsoft/TypeScript-Node-Starter/blob/master/jest.config.js
-
-Best practices: As we work on the code
 
 Code style guide (we can use existing one): Typescript - https://google.github.io/styleguide/tsguide.html
 
