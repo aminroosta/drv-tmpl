@@ -5,6 +5,7 @@
 - Development: `npm run start:dev`
 - All Tests: `npm run test`
 - Specific Test: `npm run test -t testNameOrPattern`
+- Code Formatter: `npm run format`
 
 Standardize logging: https://github.com/pinojs/pino
 
