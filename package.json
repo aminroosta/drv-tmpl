@@ -22,7 +22,7 @@
     "verbose": true,
     "testEnvironment": "node",
     "testMatch": [
-      "**/t/**/*.ts",
+      "**/test/**/*.ts",
       "**/?(*.)+test.ts"
     ],
     "preset": "ts-jest"
